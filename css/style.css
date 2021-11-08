@@ -1,0 +1,326 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+   width: 50%;
+   float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	border-bottom: 1px solid #eee;
+}
+.logo{
+	width: auto;
+}
+.header .nav{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .nav li{
+     list-style-type: none;
+     display: inline-block;
+     margin: 10px 0px 0px;
+}
+.header .nav li a{
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #0f2656;
+	margin: 0px 0px 0px 20px;
+}
+.header .nav li a:hover{
+	color: #008AFF;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #0f2656;
+    margin: 0px 0px 15px;
+}
+.banner h1 span{
+    color: #008AFF;
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0f2656;
+    margin: 0px 0px 15px;
+}
+.banner .banner-img{
+    width: 50%;
+    margin: 15px 0px 0px;
+}
+.success{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.inner-left{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.inner-left h1{
+	margin: 0px 25px 0px 0px;
+	font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #f15767;
+}
+.inner-left p{
+	margin: 20px 25px 0px 0px;
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0f2656;
+}
+.inner-right{
+    width: 100%;
+	float: left;
+}
+.inner-right h1{
+	margin: 0px 0px 0px 25px;
+	font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #f2656;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.inner-feature{
+	width: 80%;
+	float: left;
+	margin: 0px 15px;
+	padding: 40px 25px;
+}
+.inner-feature .img-fluid{
+	width: 100%;
+	height: 200px;
+}
+.inner-feature h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #0f2656;
+    margin: 10px 0px 10px 0px;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0f2656;
+}
+.cl1{
+	background: #FDEBED;
+}
+.cl2{
+	background: #EBF9F4;
+}
+.cl3{
+	background: #FFF7E8;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #88C1FF;
+	text-align: center;
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS start*/
+  .container{
+	width: 100%;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-4{
+	width: 100%;
+	float: left;
+}
+.col-6{
+   width: 100%;
+   float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+  .header .nav{
+
+   text-align: left;
+	
+}
+.header .nav li{
+   margin: 0px 0px 0px 20px;
+
+}
+  /* CSS end */
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS start*/
+
+.container{
+	width: 80%;
+	
+}
+ .header .nav{
+
+   text-align: left;
+	
+}
+.header .nav li a{
+	font-size: 14px;
+   margin: 0px 0px 0px 20px;
+
+}
+.banner h1{
+	font-size: 40px;
+	line-height: 50px;
+}
+.inner-left h1{
+	font-size: 40px;
+	line-height: 50px;
+}
+.inner-right h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.inner-feature{
+   margin-right: 20px;	
+} 
+
+  /* CSS end */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS start*/
+.container{
+	width: 100%;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-4{
+	width: 100%;
+	float: left;
+}
+.col-6{
+   width: 100%;
+   float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+ .header .nav{
+
+   text-align: left;
+	
+}
+.header .nav li a{
+	font-size: 12px;
+   margin: 0px 0px 0px 20px;
+
+}
+.banner h1{
+	font-size: 48px;
+	line-height: 58px;
+}
+.inner-left h1{
+	font-size: 48px;
+	line-height: 58px;
+}
+.inner-right h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+.inner-feature{
+   margin: 10px 0px;	
+}  
+  /* CSS end */
+}
+  
+}
